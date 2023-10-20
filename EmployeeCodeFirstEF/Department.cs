@@ -11,5 +11,6 @@ namespace EmployeeCodeFirstEF
         public int Id { get; set; }
         public string Country { get; set; }
         public string City { get; set; }
+        public List<Department> Departments { get; set; } = new List<Department>();
     }
 }
